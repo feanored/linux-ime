@@ -1,0 +1,140 @@
+html,body,h1,h2,p {
+	margin:0;
+	padding:0;
+}
+a{
+	color:inherit;
+	text-decoration:inherit;
+}
+a:hover{
+	text-decoration:underline;
+}
+.clear{
+	clear:both;
+}
+
+#body {
+	width: 96%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: Helvetica Neue, Helvetica, Arial, serif;
+	color:#111111;
+	background-color: #FFFFBF;	
+}
+
+#page {
+	margin: 1% 0;
+	height: 98%;
+	border:1px solid #8C8C8C;
+	padding: 25px;
+	background:#F9F9F9;
+	opacity: 0.9;  
+	border-radius:18px;
+	box-shadow: 2px 3px rgba(0,0,0,0.2);
+	background-color: rgba(195,225,205,0.9);
+}
+
+h2{
+	color: #DD2222;
+	padding-bottom: 10px;
+}
+
+.area_texto{
+	line-height: 1.15;
+	font-size: 1.2em;
+	width: 96%;
+	border: 1px solid gray;
+	padding: 1%;
+	margin-bottom: 20px;
+	resize: none;
+	overflow: auto;
+}
+
+#saida{
+	min-height: 150px;
+	height: 450px;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(3, 30%);
+	grid-auto-flow: row;  /* or 'row', 'row dense', 'column dense' */
+}
+
+#formulario{
+	height: 150px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: auto;
+	grid-auto-flow: column;
+}
+#formulario div{
+	width: 94%;
+}
+
+.acoes{
+	display: table;
+}
+
+.acao{
+	float: left;
+	margin-right: 50px;
+}
+
+.btn{
+	color: #fff;
+	background-color: #008200;
+	display: inline-block;
+	text-align: center;
+	padding: .5em 1em;
+	touch-action: manipulation;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid #004f00;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn:hover, .btn:focus {
+	background-color: #006900;
+	color: #DD2222;
+	outline: none;
+}
+
+a:hover, a:focus{
+	text-decoration: none;
+}
+
+.msg{
+	float:left;
+	color:white;
+	line-height: 36px;
+	vertical-align: middle;
+	padding:0 25px;
+	margin:1px solid lightsalmon;
+	background-color: darkred;
+}
+
+.del{
+	display: inline-block;
+	text-align: center;
+	color:red;
+	font-size: 0.7em;
+}
+
+.del:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* AJUSTES PARA LAYOUT RESPONSIVO */
+
+@media screen and (max-width: 720px) {
+	#saida, #formulario{
+		height: auto;
+		display: block;
+	}
+	#formulario div{
+		width: 100% !important;
+	}
+}

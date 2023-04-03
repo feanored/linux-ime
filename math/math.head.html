@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="theme-color" content="#B3BEAD" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Baú de Equações em Latex</title>
+	<link rel="icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="css/math.css" type="text/css" id="styles2" />
+	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+  	<script type="text/javascript">	    
+	    $("body").ready(function(){
+	    	var file = $("#file").val();
+	    	$("#file").bind("change", function(){
+	    		$(this).val(file);
+	    	});
+	    	$(".del").bind("click", function(){
+	    		var id = $(this).data("id");
+	    		ask = confirm("Deseja realmente excluir essa equação?");
+	    		if(ask)
+	    			top.location.href = 'math/math.del.php?id='+id+'&file='+file;
+	    	});
+	    });
+	    function converter(){
+	    	texto = $("#texto").val();
+	    	if(texto != "")
+	    		$("#math").val("$$"+texto+"$$");
+	    	$("#submit").submit();
+	    }
+	    function salvar() {
+	    	$("#salvar").val(1);
+	    	converter();
+	    }
+	</script>
+</head>

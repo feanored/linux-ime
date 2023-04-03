@@ -1,0 +1,4 @@
+$$\rho_{PI} = \frac{\rho_0}{1+(r/R_c)^2}$$;Modelo PI de densidade, onde \( \rho_0 \) é a densidade, e \( R_c \) é o raio do núcleo.;
+$$\overline{T} = -\frac{1}{2}\overline{U}$$;Teorema do Virial para Força Gravitacional
+$$\overline{T} = -\frac{1}{2}\overline{\sum_{i} \vec{F_i}\ .\vec{r_i}}$$;Teorema do Virial na forma geral
+$$\rho_{NFW} = \frac{\rho_i}{(r/R_s)(1+r/R_s)^2}$$;Modelo NFW de densidade, onde:#n#\( \rho_i \) é a densidade local no colapso do halo, e #n#\( R_s \) o fator de escala do raio.

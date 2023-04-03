@@ -1,0 +1,19 @@
+$$e^{i\pi} + 1 = 0$$;Equação mais bela da matemática
+$$\pi = \sum_{k=0}^{\infty} \frac{(-1)^k}{4^k} (\frac{2}{4k + 1} + \frac{1}{2k + 1} + \frac{1}{4k + 3})$$;Série BBP do número Pi
+$$\sum_{n=0}^{\infty} (-1)^n = \frac{1}{2}$$;Sequência maluca
+$$\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$$;Integral Gaussiana
+$$P(X=x) = \frac{e^{-\lambda}\lambda^x}{x!}$$;Distribuição Poisson
+$$f_X(x) = \frac{1}{\sqrt{2\sigma^2\pi}} \exp{[-\frac{(x-\mu)^2}{2\sigma^2}]}$$;Distribuição Normal
+$$c_k = \frac{1}{2N} \sum_{j=0}^{2N-1} F(x_j) e^{-ikx_j}$$;Transformada de Fourier
+$$\mu (x) = \int \frac{dx}{|x| \sin^2{(\gamma \ln{|x|})}} = \frac{\cot{(\gamma \ln{|x|})}}{\gamma}$$;Olha essa Narquia
+$$\sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1} = \frac{\pi}{4}$$;Exemplo de série numérica
+$$N(t) = \frac{K}{1+(\frac{K}{N_0} - 1)e^{-rt}}$$;Solução da equação logística populacional
+$$\frac{dN}{dt} = rN(\frac{K-N}{K})$$;Equação logística populacional
+$$\sum_{n=1}^{\infty} (-1)^{\left[ (n-1) \mod 2 \right]} \: n = \frac{1}{4}$$;Série alternada
+$$\mathrm{ABC}$$#n#$$\mathbb{ABC}$$#n#$$\mathcal{ABC}$$#n#$$\mathfrak{ABC}$$#n#$$\mathscr{ABC}$$#n#$$$$;math: rm, bb, cal, frak, scr
+$$\sinh(x) = \frac{e^x - e^{-x}}{2}$$#n#$$\cosh(x) = \frac{e^x + e^{-x}}{2}$$;Funções hiperbólicas
+$$\mathscr{F}\{f(x)\} = f(\xi)$$#n#$$\mathscr{L}\{f(x)\} = F(s)$$;Transformadas de Fourier e de Laplace
+$$\delta S = \int \delta \scr{L} (\phi, \dot{\phi}, \phi^{´}, t)\ dx\ dt$$;Mínima Ação para Campos Clássicos
+$$\frac{\partial}{\partial t} \left( \frac{\partial \scr{L}}{\partial \dot{\phi}} \right) + \frac{\partial}{\partial x} \left( \frac{\partial \scr{L}}{\partial \phi^{´}} \right) - \frac{\partial \scr{L}}{\partial \phi} = 0$$;Equações de Lagrange para Campos Clássicos
+$$\int_{\mathbb{R}} dx\ x^{2k} e^{-bx^2} = \left| \frac{\partial^k}{\partial b^k} \sqrt{\frac{\pi}{b}} \right| = \frac{(2k-1)!!}{2^{k}} \sqrt{\frac{\pi}{b^{(2k+1)}}}$$;Momento de ordem n=2k da densidade Gaussiana
+$$t' = \gamma (t - \frac{v}{c^2}x)$$#n#$$x' = \gamma (x - vt)$$#n#$$\gamma = \frac{1}{\sqrt{1- \left( \frac{v}{c} \right)^2}}$$;Transformações de Lorentz

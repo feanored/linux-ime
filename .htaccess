@@ -1,0 +1,3 @@
+#Lines added by Rede Linux : /global/bin/configura_php
+AddHandler application/x-httpd-php-script .php
+Action application/x-httpd-php-script /~feanored/cgi-bin/php-wrapper
