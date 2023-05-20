@@ -22,7 +22,7 @@ include_once("math/math.head.html");
 <body id="body">
     <div id="page">
         <h2><?php echo $_title; ?></h2>
-        <div id="saida" class="area_texto" style="grid-template-rows: repeat(<?php echo ceil(count($dados)/3); ?>, auto);">
+        <div id="saida" class="area_texto" style="grid-template-rows: repeat(<?php echo ceil(count($dados)/4); ?>, auto);">
             <?php
             for($i=0; $i < count($dados); $i++) {
                 echo('<div>');
@@ -54,7 +54,7 @@ include_once("math/math.head.html");
         </div>
         <div class="acoes">
             <div class="acao"><a class="btn" href="#" onclick="converter();">EXIBIR</a></div>
-            <div class="acao"><a class="btn" href="#" onclick="salvar();">SALVAR</a></div>
+            <div class="acao right"><a class="btn" href="#" onclick="salvar();">SALVAR</a></div>
             <?php if($msg != "") {
                 echo("<div class='msg'>$msg</div>");
             } ?>
