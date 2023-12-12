@@ -31,6 +31,7 @@ body {
 #page:hover {
   background:#FEFEFE;
   -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 article{
   font-size:15px;
@@ -73,6 +74,7 @@ li, p {
 li:hover, p:hover{
   color:#545454;    
   -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .double li{
   margin:15px 0;
@@ -138,9 +140,6 @@ header nav{
   color:#CC0000;
 }
 
-
-/* AJUSTES PARA LAYOUT RESPONSIVO */
-
 #nome span{
   font-size: 1.2em !important;
 }
@@ -151,7 +150,11 @@ header nav{
 }
 
 @media screen and (max-width: 720px) {
-     
+  
+  .section_content{
+    padding: 0;
+  }
+
   #nome span{
     font-size: 1.1em !important;
   }
