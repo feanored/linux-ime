@@ -1,6 +1,5 @@
 $$e^{i\pi} + 1 = 0$$;Equação mais bela da matemática
 $$\sum_{n=0}^{\infty} (-1)^n = \frac{1}{2}$$;Sequência maluca
-$$\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$$;Integral Gaussiana
 $$P(X=x) = \frac{e^{-\lambda}\lambda^x}{x!}$$;Distribuição Poisson
 $$f_X(x) = \frac{1}{\sqrt{2\sigma^2\pi}} \exp{[-\frac{(x-\mu)^2}{2\sigma^2}]}$$;Distribuição Normal
 $$c_k = \frac{1}{2N} \sum_{j=0}^{2N-1} F(x_j) e^{-ikx_j}$$;Transformada de Fourier
@@ -15,3 +14,4 @@ $$\int_{\mathbb{R}} dx\ x^{2k} e^{-bx^2} = \left| \frac{\partial^k}{\partial b^k
 $$t' = \gamma (t - \frac{v}{c^2}x)$$#n#$$x' = \gamma (x - vt)$$#n#$$\gamma = \frac{1}{\sqrt{1- \left( \frac{v}{c} \right)^2}}$$;Transformações de Lorentz
 $$\left[ -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x) \right] \Psi(x) = E\Psi(x)$$;Equação de Schrödinger independente do tempo
 $$\hat{H} \Psi(x, t) = i\hbar \frac{\partial}{\partial t} \Psi(x, t)$$;Equação de Schrödinger dependente do tempo
+$$\int_{\mathbb{R}} e^{-bx^2} dx = \sqrt{\frac{\pi}{b}}$$;Integral Gaussiana
