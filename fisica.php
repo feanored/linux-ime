@@ -2,7 +2,7 @@
 include_once("math/functions.php");
 
 setSession("sufix", "fisica");
-setSession("title", "Resumão de Física");
+setSession("title", "Tópicos de Física");
 
 include_once("math/math.view.php");
 ?>

@@ -6,7 +6,6 @@ $$c_k = \frac{1}{2N} \sum_{j=0}^{2N-1} F(x_j) e^{-ikx_j}$$;Transformada de Fouri
 $$\sum_{n=0}^{\infty} \frac{(-1)^n}{2n+1} = \frac{\pi}{4}$$;Exemplo de série numérica
 $$\frac{dN}{dt} = rN(\frac{K-N}{K})$$;Equação logística populacional
 $$\sum_{n=1}^{\infty} (-1)^{\left[ (n-1) \mod 2 \right]} \: n = \frac{1}{4}$$;Série alternada
-$$\mathrm{ABC}$$#n#$$\mathbb{ABC}$$#n#$$\mathcal{ABC}$$#n#$$\mathfrak{ABC}$$#n#$$\mathscr{ABC}$$#n#$$$$;math: rm, bb, cal, frak, scr
 $$\sinh(x) = \frac{e^x - e^{-x}}{2}$$#n#$$\cosh(x) = \frac{e^x + e^{-x}}{2}$$;Funções hiperbólicas
 $$\delta S = \int \delta \scr{L} (\phi, \dot{\phi}, \phi^{´}, t)\ dx\ dt$$;Mínima Ação para Campos Clássicos
 $$\frac{\partial}{\partial t} \left( \frac{\partial \scr{L}}{\partial \dot{\phi}} \right) + \frac{\partial}{\partial x} \left( \frac{\partial \scr{L}}{\partial \phi^{´}} \right) - \frac{\partial \scr{L}}{\partial \phi} = 0$$;Equações de Lagrange para Campos Clássicos
